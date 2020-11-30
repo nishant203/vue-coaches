@@ -1,0 +1,3 @@
+<template>
+    Contact Template
+</template>
