@@ -16,9 +16,7 @@
 export default {
   computed: {
     filteredCoaches() {
-      debugger;
-      const data = this.$store.getters.coaches;
-      return data;
+      return this.$store.getters['coaches/coaches'];
     },
   },
 };
